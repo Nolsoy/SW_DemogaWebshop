@@ -70,7 +70,7 @@ private static StartPage s;
 	public void test_2c(){
 	
 			s.clickByXpath("//*[@id='single_product_page_container']/div[1]/div[2]/div[2]/span/div[3]/a");
-			s.sleep(7);
+			s.sleep(8);
 			s.getTextByClass("message");
 			System.out.println("Meddelande = " + s.text);
 			Assert.assertEquals("Sorry, you already rated!", s.text);

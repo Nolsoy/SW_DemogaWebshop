@@ -81,6 +81,7 @@ public class Sw_demoga_1 {
 		s.sleep(s.intervalValue+1);
 		
 		s.getTextByXpath("//*[@id='slides']/div[1]/div[1]/h2");
+		Assert.assertNotEquals(s.text,firstProduct);
 		Assert.assertNotEquals(s.text,secondProduct);
 		System.out.println(s.text + " != " + secondProduct + " / " + firstProduct);
 		s.sleep(s.intervalValue+1);
