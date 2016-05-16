@@ -64,7 +64,7 @@ private static StartPage s;
 	
 	}
 	
-	//Hoppar över 2c.i & 2c.ii - kan bara rösta en gång, därefter visas inte "Thanks for rating"-meddelandet längre.
+	/*Hoppar över 2c.i & 2c.ii - kan bara rösta en gång, därefter visas inte "Thanks for rating"-meddelandet längre.
 	
 	@Test
 	public void test_2c(){
@@ -74,9 +74,9 @@ private static StartPage s;
 			s.getTextByClass("message");
 			System.out.println("Meddelande = " + s.text);
 			Assert.assertEquals("Sorry, you already rated!", s.text);
-		//}
+		
 	
-	}
+	}*/
 	
 
 }
